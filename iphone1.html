@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@500&display=swap" rel="stylesheet" type="text/css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head> 
+  <body>
+
+    <header>
+        <a href="index.html"><img class="logo" src="img/logo.png"></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">About</a></li>
+
+        </ul>
+      </nav>
+      <a class="contact" href="#"><button>Contact</button></a>
+    </header>
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h2>The Iphone</h2>
+        <div class="jsgallery">
+            
+
+                <a href="img/stevejobs.png" class="nohov-img"><img src="img/stevejobs.png"></a>
+
+            
+        </div>
+            <div class="text-box">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
+                    voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+                    occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt 
+                    mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est 
+                    et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio 
+                    cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas 
+                    assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis a
+                    ut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae 
+                    non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
+                    voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+            </div>
+            <div class="jsgallery">
+                <a href="img/iphone1stats.png" class="nohov-img"><img src="img/iphone1stats.png"></a>
+            </div>
+            <div class="text-box">
+                <p>Lorem ipsum dolor sit amet, putant admodum cu sed. Nec summo possit ex. Labore splendide prodesset pro ne. Qui ex facilis 
+                    deleniti perfecto, purto diceret tacimates sit cu. Ea etiam consul invenire quo.
+                    No choro fabulas consetetur qui. Novum aeterno tibique cum ex, eos eu decore mnesarchum philosophia, his sumo interesset eu. 
+                    Ipsum oblique gloriatur in mei. Ubique invidunt pro ad, epicuri rationibus ne nec, velit error vel ne. Vim possit inimicus et, nec in 
+                    diceret voluptatibus, vim ludus deseruisse ex. Sed noluisse delectus ea. In errem invenire pro, et erat graece mel.</p>
+            </div>
+            <div class="jsgallery">
+                <a href="img/iphone3gs.png" class="nohov-img"><img src="img/iphone3gs.png"></a>
+            </div>
+            
+            <div class="jsgallery">
+                <a href="img/iphonevia.png" class="nohov-img"><img src="img/iphonevia.png"></a>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script>
+        $(".jsgallery").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script> 
+    
+    </body>
+    <footer>
+        <div class="dev">
+          created by Jeremy Joseph
+        </div>
+      </footer>
+
+    </html>
